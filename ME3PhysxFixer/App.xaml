@@ -1,0 +1,9 @@
+﻿<Application x:Class="ME3PhysxFixer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ME3PhysxFixer"
+             ShutdownMode="OnLastWindowClose">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

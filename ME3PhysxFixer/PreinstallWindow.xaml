@@ -1,0 +1,16 @@
+﻿<Window x:Class="ME3PhysxFixer.PreinstallWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ME3PhysxFixer"
+        mc:Ignorable="d"
+        Background="DarkGray"
+        Title="ME3 PhysX Fixer by ME3Tweaks" Height="270" Width="470">
+    <DockPanel Margin="5">
+        <TextBlock DockPanel.Dock="Top" TextWrapping="Wrap" Margin="0,5" TextAlignment="Center" FontSize="16" Text="This tool is designed to fix this specific issue for Mass Effect 3:"/>
+        <Image DockPanel.Dock="Top" Source="/images/errordialog.png" Width="376" Height="141"/>
+
+        <Button Content="Install PhysX files into game" Click="Install_Click" Margin="0,5"/>
+    </DockPanel>
+</Window>
